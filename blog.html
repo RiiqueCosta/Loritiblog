@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de TI | Lori-TI</title>
+  <meta name="description" content="Blog da Lori-TI com conteúdos sobre suporte técnico, redes, infraestrutura e CFTV em São Paulo.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar"><div class="container nav"><a class="brand" href="index.html"><span class="brand-badge">LT</span><span>Lori-TI</span></a><nav class="nav-links"><a href="index.html">Início</a><a href="sobre.html">Quem Somos</a><a href="servicos.html">Serviços</a><a class="active" href="blog.html">Blog</a><a href="contato.html">Contato</a><a class="btn btn-primary" data-wa-message="Olá, vi os conteúdos do blog e quero um orçamento." href="javascript:void(0)">Falar no WhatsApp</a></nav></div></header>
+<main>
+<section class="page-hero"><div class="container"><div class="breadcrumb">Início / Blog</div><h1>Blog de TI com foco em busca, autoridade e conversão</h1><p>Conteúdos estruturados para responder dúvidas reais do público, gerar tráfego no Google e facilitar o fechamento por WhatsApp.</p></div></section>
+<section class="section"><div class="container"><div id="postsContainer" class="blog-grid"></div></div></section>
+<section class="section"><div class="container cta-band"><div><span class="badge">SEO local</span><h2 style="margin:12px 0 8px">Quer transformar visitas em orçamento?</h2><p style="margin:0;color:#e8ebf2">Cada artigo leva o cliente para uma ação objetiva.</p></div><a class="btn btn-primary" data-wa-message="Olá, quero atendimento depois de ver o blog da Lori-TI." href="javascript:void(0)">Pedir atendimento</a></div></section>
+</main>
+<footer class="footer"><div class="container"><p class="small">© Lori-TI - Blog técnico com foco em São Paulo.</p></div></footer>
+<script src="assets/js/posts.js"></script>
+<script>
+const container = document.getElementById('postsContainer');
+window.LORI_POSTS.forEach(post => {
+  const article = document.createElement('article');
+  article.className = 'card post-card';
+  article.innerHTML = `
+    <div class="post-thumb"><span>${post.category}</span></div>
+    <div class="post-body">
+      <div class="post-meta">${post.date}</div>
+      <h3>${post.title}</h3>
+      <p>Conteúdo estratégico sobre ${post.category.toLowerCase()} com foco em atração e conversão.</p>
+      <a class="btn btn-outline" href="blog/posts/${post.slug}.html">Ler artigo</a>
+    </div>`;
+  container.appendChild(article);
+});
+</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

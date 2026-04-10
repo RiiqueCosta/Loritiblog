@@ -1,0 +1,22 @@
+window.LORI_POSTS = [
+  {slug:'internet-lenta-em-casa',title:'Internet lenta em casa? Veja 7 causas e como resolver rápido',category:'Redes',date:'10/04/2026'},
+  {slug:'quanto-custa-instalar-cameras',title:'Quanto custa instalar câmeras de segurança em 2026?',category:'CFTV',date:'10/04/2026'},
+  {slug:'computador-travando-solucoes',title:'Computador travando? 9 soluções rápidas antes de trocar de máquina',category:'Suporte Técnico',date:'10/04/2026'},
+  {slug:'wifi-nao-pega-casa-toda',title:'Wi-Fi não pega na casa toda? O erro mais comum está aqui',category:'Redes',date:'10/04/2026'},
+  {slug:'vale-a-pena-camera-seguranca',title:'Vale a pena instalar câmera de segurança em casa ou empresa?',category:'CFTV',date:'10/04/2026'},
+  {slug:'roteador-ou-mesh',title:'Roteador comum ou rede mesh: qual vale mais a pena?',category:'Redes',date:'10/04/2026'},
+  {slug:'quando-trocar-hd-por-ssd',title:'Quando trocar HD por SSD? Sinais que indicam a hora certa',category:'Suporte Técnico',date:'10/04/2026'},
+  {slug:'backup-empresa-pequena',title:'Como fazer backup certo em pequena empresa e evitar prejuízo',category:'Segurança',date:'10/04/2026'},
+  {slug:'camera-infravermelho-ou-colorvu',title:'Câmera infravermelho ou colorida à noite: qual escolher?',category:'CFTV',date:'10/04/2026'},
+  {slug:'rede-empresa-lenta',title:'Rede da empresa lenta? Veja os gargalos mais comuns',category:'Redes',date:'10/04/2026'},
+  {slug:'formatar-ou-consertar-pc',title:'Formatar ou consertar o PC? Como decidir sem gastar à toa',category:'Suporte Técnico',date:'10/04/2026'},
+  {slug:'camera-com-audio-pode',title:'Câmera com áudio pode? O que avaliar antes de instalar',category:'CFTV',date:'10/04/2026'},
+  {slug:'manutencao-preventiva-computadores',title:'Manutenção preventiva em computadores: quanto você economiza',category:'Suporte Técnico',date:'10/04/2026'},
+  {slug:'melhor-posicao-roteador',title:'Melhor lugar para colocar o roteador e melhorar o sinal',category:'Redes',date:'10/04/2026'},
+  {slug:'nobreak-vale-a-pena',title:'No-break vale a pena para empresa? Quando faz diferença',category:'Infraestrutura',date:'10/04/2026'},
+  {slug:'camera-bullet-ou-dome',title:'Câmera bullet ou dome: qual escolher em cada ambiente',category:'CFTV',date:'10/04/2026'},
+  {slug:'computador-lento-empresas',title:'Computador lento na empresa: causas escondidas que travam o dia',category:'Suporte Técnico',date:'10/04/2026'},
+  {slug:'como-melhorar-wifi-escritorio',title:'Como melhorar o Wi-Fi do escritório sem quebrar parede',category:'Redes',date:'10/04/2026'},
+  {slug:'instalacao-camera-condominio',title:'Instalação de câmera em condomínio: o que planejar antes',category:'CFTV',date:'10/04/2026'},
+  {slug:'suporte-ti-terceirizado-vantagens',title:'Suporte de TI terceirizado: 8 vantagens para pequenas empresas',category:'Consultoria',date:'10/04/2026'}
+];
