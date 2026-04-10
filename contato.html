@@ -9,7 +9,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="topbar"><div class="container nav"><a class="brand" href="index.html"><span class="brand-badge">LT</span><span>Lori-TI</span></a><nav class="nav-links"><a href="index.html">Início</a><a href="sobre.html">Quem Somos</a><a href="servicos.html">Serviços</a><a href="blog.html">Blog</a><a class="active" href="contato.html">Contato</a><a class="btn btn-primary" data-wa-message="Olá, quero falar com a Lori-TI." href="javascript:void(0)">Abrir WhatsApp</a></nav></div></header>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">LT</span>
+      <span>Lori-TI</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPrincipal">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="menuPrincipal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Quem Somos</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="blog.html">Blog</a>
+      <a class="active" href="contato.html">Contato</a>
+      <a class="btn btn-primary" data-wa-message="Olá, quero falar com a Lori-TI." href="javascript:void(0)">Solicitar orçamento</a>
+    </nav>
+  </div>
+</header>
 <main>
 <section class="page-hero"><div class="container"><div class="breadcrumb">Início / Contato</div><h1>Fale com a Lori-TI</h1><p>Use o formulário abaixo para gerar uma mensagem organizada no WhatsApp e acelerar o atendimento.</p></div></section>
 <section class="section"><div class="container contact-wrap"><article class="card"><h2 style="margin-top:0">Solicitar orçamento</h2><form id="leadForm"><div class="form-group"><label>Nome</label><input type="text" name="name" required></div><div class="form-group"><label>Telefone</label><input type="text" name="phone" required></div><div class="form-group"><label>Serviço</label><select name="service"><option>Suporte técnico</option><option>Redes e Wi-Fi</option><option>Instalação de câmeras</option><option>Infraestrutura</option></select></div><div class="form-group"><label>Bairro / Cidade</label><input type="text" name="neighborhood"></div><div class="form-group"><label>Detalhes</label><textarea name="message" placeholder="Descreva o que você precisa"></textarea></div><button class="btn btn-primary" type="submit">Enviar no WhatsApp</button></form></article><article class="card"><h2 style="margin-top:0">Informações</h2><p>WhatsApp: (11) 98525-8655</p><p>Atendimento em São Paulo e região</p><ul class="list-check"><li>Mensagem já sai pronta</li><li>Mais organização no primeiro atendimento</li><li>Melhor filtro de clientes</li></ul><a class="btn btn-outline" data-wa-message="Olá, vim pela página de contato e quero um orçamento." href="javascript:void(0)">Chamar agora</a></article></div></section>

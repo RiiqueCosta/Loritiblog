@@ -26,29 +26,34 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="container nav">
-      <a class="brand" href="index.html">
-        <span class="brand-badge">LT</span>
-        <span>Lori-TI</span>
-      </a>
-      <nav class="nav-links">
-        <a class="active" href="index.html">Início</a>
-        <a href="sobre.html">Quem Somos</a>
-        <a href="servicos.html">Serviços</a>
-        <a href="blog.html">Blog</a>
-        <a href="contato.html">Contato</a>
-        <a class="btn btn-primary" data-wa-message="Olá, quero um orçamento para suporte técnico em São Paulo." href="javascript:void(0)">Solicitar orçamento</a>
-      </nav>
-    </div>
-  </header>
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand-badge">LT</span>
+      <span>Lori-TI</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menuPrincipal">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="menuPrincipal">
+      <a class="active" href="index.html">Início</a>
+      <a href="sobre.html">Quem Somos</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="blog.html">Blog</a>
+      <a href="contato.html">Contato</a>
+      <a class="btn btn-primary" data-wa-message="Olá, quero um orçamento para suporte técnico em São Paulo." href="javascript:void(0)">Solicitar orçamento</a>
+    </nav>
+  </div>
+</header>
 
   <main>
     <section class="hero">
       <div class="container hero-grid">
         <div>
           <span class="eyebrow">Atendimento residencial e empresarial em São Paulo</span>
-          <h1>Suporte Técnico em TI, Redes e CFTV com presença profissional e foco em resultado</h1>
-          <p>A Lori-TI entrega suporte técnico, manutenção de computadores, infraestrutura de rede, cabeamento estruturado e instalação de câmeras com atendimento rápido, comunicação clara e solução sob medida.</p>
+          <h1>Suporte Técnico em TI, Redes e CFTV com atendimento rápido</h1>
+          <p>Computador travando, internet falhando ou câmeras com problema? A Lori-TI atende residências e empresas em São Paulo com suporte técnico, redes, infraestrutura e CFTV.</p>
           <div style="display:flex;gap:14px;flex-wrap:wrap">
             <a class="btn btn-primary" data-wa-message="Olá, quero atendimento técnico para TI, redes ou câmeras." href="javascript:void(0)">Falar no WhatsApp</a>
             <a class="btn btn-outline" href="servicos.html">Ver serviços</a>
@@ -59,21 +64,71 @@
             <div class="stat"><strong>CFTV</strong><span>Instalação e manutenção</span></div>
           </div>
         </div>
+
         <div class="hero-card">
-          <span class="badge">
-<section class="section">
-  <h2>Suporte Técnico Rápido em São Paulo</h2>
-  <p>
-    Computador lento, internet com falha ou câmeras paradas?
-    A Lori-TI resolve rápido, com atendimento profissional para
-    residências e empresas em São Paulo.
-  </p>
+          <span class="badge">Atendimento rápido</span>
+          <h2 style="margin:14px 0 10px">Suporte Técnico Rápido em São Paulo</h2>
+          <p style="margin:0 0 18px;color:#d7dbe4">
+            Computador lento, internet com falha ou câmeras paradas?
+            A Lori-TI resolve rápido, com atendimento profissional para
+            residências e empresas em São Paulo.
+          </p>
+          <ul class="list-check">
+            <li>Diagnóstico rápido</li>
+            <li>Solução eficiente</li>
+            <li>Atendimento profissional</li>
+          </ul>
+          <a class="btn btn-primary" style="margin-top:20px" data-wa-message="Olá, preciso de suporte técnico rápido em São Paulo." href="javascript:void(0)">
+            Solicitar atendimento agora
+          </a>
+        </div>
+      </div>
+    </section>
 
-  <p>
-    Diagnóstico rápido, solução eficiente e suporte confiável.
-  </p>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Serviços para empresas e residências</h2>
+          <p>Atendimento técnico com foco em resolver o problema com rapidez, clareza e boa execução.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <div class="icon">TI</div>
+            <h3>Suporte Técnico</h3>
+            <p>Manutenção, lentidão, erros, formatação, upgrades e suporte para computadores e notebooks.</p>
+          </article>
+          <article class="card">
+            <div class="icon">RE</div>
+            <h3>Redes e Wi-Fi</h3>
+            <p>Configuração de roteadores, mesh, switches, pontos de rede e melhorias de sinal e estabilidade.</p>
+          </article>
+          <article class="card">
+            <div class="icon">CF</div>
+            <h3>CFTV</h3>
+            <p>Instalação, manutenção e configuração de câmeras, DVR/NVR e acesso remoto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <a class="btn" href="https://wa.me/5511985258655">
-    Solicitar atendimento agora
-  </a>
-</section>
+    <section class="section">
+      <div class="container cta-band">
+        <div>
+          <span class="badge">Atendimento em São Paulo</span>
+          <h2 style="margin:12px 0 8px">Precisa resolver seu problema hoje?</h2>
+          <p style="margin:0;color:#e8ebf2">Fale com a Lori-TI e receba uma triagem rápida pelo WhatsApp.</p>
+        </div>
+        <a class="btn btn-primary" data-wa-message="Olá, preciso de um atendimento da Lori-TI." href="javascript:void(0)">Solicitar atendimento</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="small">© Lori-TI - Suporte Técnico em TI, Redes e CFTV em São Paulo.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
